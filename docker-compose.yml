@@ -1,0 +1,42 @@
+version: '3'
+
+volumes:
+  postgres:
+    driver: local
+
+services:
+  
+  newsdb:
+    image: postgres:10
+    ports:
+      - 5432:5432
+    volumes:
+      - postgres:/var/lib/postgresql/data
+    restart: always
+    environment:
+      POSTGRES_DB: NewsPortalDb
+      POSTGRES_USER: postgres
+      POSTGRES_PASSWORD: 123456
+
+  newsportal-identity-api:
+    image: identity
+    restart: always
+    build:
+      context: ./NewsPortal.Identity.API
+      dockerfile: Dockerfile
+    depends_on:
+      - newsdb
+    ports:
+      - 3000:80
+    
+    
+  newsportal-news-api:
+    image: news
+    restart: always
+    build:
+      context: ./NewsPortal.News.API
+      dockerfile: Dockerfile
+    depends_on:
+      - newsdb
+    ports:
+      - 3001:80

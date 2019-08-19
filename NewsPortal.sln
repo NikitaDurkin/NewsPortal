@@ -1,0 +1,58 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "NewsPortal.Identity", "NewsPortal.Identity", "{0CF1563B-915E-41B5-A186-720C3839C71F}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "NewsPortal.News", "NewsPortal.News", "{37FA496B-2DBF-4A33-B189-B49E0B401ADC}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NewsPortal.Identity.API", "NewsPortal.Identity.API\NewsPortal.Identity.API.csproj", "{264DDFD9-BF5D-426B-BF2C-E76BFB7E4D9E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NewsPortal.Identity.Database", "NewsPortal.Identity.Database\NewsPortal.Identity.Database.csproj", "{8E9D0122-1281-417F-BFC2-6879C873AF31}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NewsPortal.Identity.Domain", "NewsPortal.Identity.Domain\NewsPortal.Identity.Domain.csproj", "{6BA14741-21D9-47AC-905F-59DA714DAA8F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NewsPortal.News.API", "NewsPortal.News.API\NewsPortal.News.API.csproj", "{29ED5F08-BA79-49C2-9D0E-2545158B3FB5}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NewsPortal.News.Database", "NewsPortal.News.Database\NewsPortal.News.Database.csproj", "{F57B6134-C967-4E41-881E-577BA04CAB60}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NewsPortal.News.Domain", "NewsPortal.News.Domain\NewsPortal.News.Domain.csproj", "{33BC0865-40CA-4A5A-88B3-CE996974AB08}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{264DDFD9-BF5D-426B-BF2C-E76BFB7E4D9E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{264DDFD9-BF5D-426B-BF2C-E76BFB7E4D9E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{264DDFD9-BF5D-426B-BF2C-E76BFB7E4D9E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{264DDFD9-BF5D-426B-BF2C-E76BFB7E4D9E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8E9D0122-1281-417F-BFC2-6879C873AF31}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8E9D0122-1281-417F-BFC2-6879C873AF31}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8E9D0122-1281-417F-BFC2-6879C873AF31}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8E9D0122-1281-417F-BFC2-6879C873AF31}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6BA14741-21D9-47AC-905F-59DA714DAA8F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6BA14741-21D9-47AC-905F-59DA714DAA8F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6BA14741-21D9-47AC-905F-59DA714DAA8F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6BA14741-21D9-47AC-905F-59DA714DAA8F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{29ED5F08-BA79-49C2-9D0E-2545158B3FB5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{29ED5F08-BA79-49C2-9D0E-2545158B3FB5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{29ED5F08-BA79-49C2-9D0E-2545158B3FB5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{29ED5F08-BA79-49C2-9D0E-2545158B3FB5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F57B6134-C967-4E41-881E-577BA04CAB60}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F57B6134-C967-4E41-881E-577BA04CAB60}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F57B6134-C967-4E41-881E-577BA04CAB60}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F57B6134-C967-4E41-881E-577BA04CAB60}.Release|Any CPU.Build.0 = Release|Any CPU
+		{33BC0865-40CA-4A5A-88B3-CE996974AB08}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{33BC0865-40CA-4A5A-88B3-CE996974AB08}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{33BC0865-40CA-4A5A-88B3-CE996974AB08}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{33BC0865-40CA-4A5A-88B3-CE996974AB08}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{264DDFD9-BF5D-426B-BF2C-E76BFB7E4D9E} = {0CF1563B-915E-41B5-A186-720C3839C71F}
+		{8E9D0122-1281-417F-BFC2-6879C873AF31} = {0CF1563B-915E-41B5-A186-720C3839C71F}
+		{6BA14741-21D9-47AC-905F-59DA714DAA8F} = {0CF1563B-915E-41B5-A186-720C3839C71F}
+		{29ED5F08-BA79-49C2-9D0E-2545158B3FB5} = {37FA496B-2DBF-4A33-B189-B49E0B401ADC}
+		{F57B6134-C967-4E41-881E-577BA04CAB60} = {37FA496B-2DBF-4A33-B189-B49E0B401ADC}
+		{33BC0865-40CA-4A5A-88B3-CE996974AB08} = {37FA496B-2DBF-4A33-B189-B49E0B401ADC}
+	EndGlobalSection
+EndGlobal
